@@ -23,9 +23,6 @@ elif operator == "B":
 elif operator== "C":
     print("Resultado: ", numA * numB)
 elif operator== "D":
-    while numB in [0]:
-            numB= float(input("""NÃO DIVIDA POR ZERO!
-        Insira o segundo numero: """))
             print("Resultado: ", numA / numB)
 
 
