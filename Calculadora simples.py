@@ -1,10 +1,12 @@
-print("=====Bem vindo a calculadora de simples!=====")
-
+#Determinar valores
 print("")
-print("APENAS NUMEROS!")
-numA= float(input("Insira o primeiro numero: "))
-numB= float(input("Insira o segundo numero: "))
+print("Apenas numeros e divisão diferente de Zero")
 
+numA= float(input("Insira o primeiro numero: "))
+numB= float(input("Insira o segundo numero: "))656
+
+
+#Escolher a operação
 operator= input("""selecione a operação a ser feita!
 (A)SOMA 
 (B)SUBTRAÇÃo
@@ -17,15 +19,12 @@ while operator not in ["A","B","C","D"]:
     operator= input("Digite entre as opções listadas:")
 
 if operator == "A":
-    print("Resultado: ", numA + numB)
+    print(f"Resultado: {numA + numB}")
 elif operator == "B":
-    print("Resultado: ", numA - numB)
+    print(f"Resultado: {numA - numB}")
 elif operator== "C":
-    print("Resultado: ", numA * numB)
+    print(f"Resultado: {numA * numB}")
 elif operator== "D":
-            print("Resultado: ", numA / numB)
-
-
-
+    print(f"Resultado: {numA / numB}")
 
 
