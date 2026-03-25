@@ -1,2 +1,2 @@
 # Projetos-iniciais.py
-Meus projetos iniciais com python.
+Meus projetos iniciais.
