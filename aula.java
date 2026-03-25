@@ -66,23 +66,35 @@ public class aula {
 				System.out.println(numA * pesoA + numB * pesoB / 2);
 		}}
 		
-		##incompleto
-		else if (operacoes == 3);
+		else if (operacao == 3) {
 		System.out.println("Qual operaçâo?");
 		System.out.println("Bhaskara (1)");
 		int prontas = sc.nextInt();
-		if (prontas==1);
+		
+		if (prontas == 1) {
 		System.out.println("Escreva quem é A");
 		double pNumA = sc.nextDouble();
+		
 		System.out.println("Escreva quem é B");
 		double pNumB = sc.nextDouble();
+		
 		System.out.println("Escreva quem é C");
 		double pNumC = sc.nextDouble();
-		System.out.println(-pNumB + );
+		
+		double delta = Math.sqrt(Math.pow(pNumB, 2) - 4 * pNumA * pNumC);
+		if (delta < 0) {
+			System.out.println("Não eixtem raízes reais!");
+		} else {
+		System.out.println("X1 = ");
+		System.out.println((-pNumB + delta) / (2 * pNumA));
+		System.out.println("X2 = ");
+		System.out.println((-pNumB - delta) / (2 * pNumA));
+		}
+		}
+		}
 		
 			
 		
 	}
 }
-
 
