@@ -8,7 +8,7 @@ public class aula {
 		
 		
 		System.out.println("===========calculadora de teste============");
-		System.out.println("Operações comuns (1) ou médias? (2)");
+		System.out.println("Operações comuns (1), médias? (2) ou operações prontas (3)?");
 		int operacao = sc.nextInt();
 		
 		if (operacao == 1) {
@@ -66,6 +66,23 @@ public class aula {
 				System.out.println(numA * pesoA + numB * pesoB / 2);
 		}}
 		
+		##incompleto
+		else if (operacoes == 3);
+		System.out.println("Qual operaçâo?");
+		System.out.println("Bhaskara (1)");
+		int prontas = sc.nextInt();
+		if (prontas==1);
+		System.out.println("Escreva quem é A");
+		double pNumA = sc.nextDouble();
+		System.out.println("Escreva quem é B");
+		double pNumB = sc.nextDouble();
+		System.out.println("Escreva quem é C");
+		double pNumC = sc.nextDouble();
+		System.out.println(-pNumB + );
+		
+			
+		
 	}
 }
+
 
